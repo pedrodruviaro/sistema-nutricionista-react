@@ -32,3 +32,24 @@ export const Dashboard = styled.div`
         grid-area: main;
     }
 `;
+
+export const Sidebar = styled.aside`
+    display: flex;
+    flex-direction: column;
+
+    transition: transform 400ms ease;
+    transform: translateX(0);
+
+    > p {
+        font-size: 1.125rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+    }
+`;
